@@ -1,0 +1,111 @@
+name: Visualforce API
+description: Visualforce is a framework that enables developers to build sophisticated, custom user interfaces that can be hosted natively on the Salesforce platform. It uses a tag-based markup language similar to HTML and provides a component-based development model.
+image: https://developer.salesforce.com/resource/images/salesforce-logo.png
+url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/
+created: '2024-01-01'
+modified: '2024-01-01'
+specificationVersion: '0.18'
+tags:
+- UI Framework
+- Web Development
+- Salesforce
+- Cloud Platform
+- Enterprise
+apis:
+- name: Visualforce Pages API
+  description: API for creating and managing Visualforce pages and components
+  image: https://developer.salesforce.com/resource/images/salesforce-logo.png
+  humanUrl: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/
+  baseUrl: https://instance.salesforce.com/apex/
+  tags:
+  - Pages
+  - Components
+  - MVC
+  properties:
+  - type: Documentation
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_intro.htm
+  - type: OpenAPI
+    url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/
+  - type: Swagger
+    url: https://api.example.com/visualforce/swagger.json
+  - type: Tutorial
+    url: https://trailhead.salesforce.com/content/learn/modules/visualforce_fundamentals
+  - type: GettingStarted
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_quick_start.htm
+  - type: Authentication
+    url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_understanding_authentication.htm
+- name: Visualforce Components API
+  description: Standard and custom component library for building Visualforce pages
+  image: https://developer.salesforce.com/resource/images/salesforce-logo.png
+  humanUrl: https://developer.salesforce.com/docs/component-library/overview/components
+  baseUrl: https://instance.salesforce.com
+  tags:
+  - Components
+  - UI Elements
+  - Reusable
+  properties:
+  - type: Documentation
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref.htm
+  - type: ComponentLibrary
+    url: https://developer.salesforce.com/docs/component-library/overview/components
+  - type: Examples
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_quick_start_examples.htm
+- name: Visualforce Apex Controller API
+  description: Server-side controllers written in Apex for Visualforce pages
+  image: https://developer.salesforce.com/resource/images/salesforce-logo.png
+  humanUrl: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller_def.htm
+  baseUrl: https://instance.salesforce.com
+  tags:
+  - Apex
+  - Controllers
+  - Server-Side
+  - MVC
+  properties:
+  - type: Documentation
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller_def.htm
+  - type: Reference
+    url: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/
+  - type: BestPractices
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_best_practices.htm
+- name: Visualforce Remoting API
+  description: JavaScript remoting for calling Apex methods from Visualforce pages
+  image: https://developer.salesforce.com/resource/images/salesforce-logo.png
+  humanUrl: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_js_remoting.htm
+  baseUrl: https://instance.salesforce.com
+  tags:
+  - JavaScript
+  - AJAX
+  - Remote Actions
+  - Asynchronous
+  properties:
+  - type: Documentation
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_js_remoting.htm
+  - type: Examples
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_js_remoting_example.htm
+  - type: ErrorHandling
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_js_remoting_errors.htm
+maintainers:
+- name: Salesforce
+  email: developer@salesforce.com
+  url: https://developer.salesforce.com
+common:
+- type: Portal
+  url: https://developer.salesforce.com
+- type: Signup
+  url: https://developer.salesforce.com/signup
+- type: Login
+  url: https://login.salesforce.com
+- type: Support
+  url: https://help.salesforce.com
+- type: Community
+  url: https://trailblazer.salesforce.com/ideaSearch
+- type: Blog
+  url: https://developer.salesforce.com/blogs
+- type: Status
+  url: https://status.salesforce.com
+- type: RateLimits
+  url: https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/
+- type: TermsOfService
+  url: https://www.salesforce.com/company/legal/agreements/
+- type: PrivacyPolicy
+  url: https://www.salesforce.com/company/privacy/
