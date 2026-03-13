@@ -3,7 +3,7 @@ description: Visualforce is a framework that enables developers to build sophist
 image: https://developer.salesforce.com/resource/images/salesforce-logo.png
 url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/
 created: '2024-01-01'
-modified: '2024-01-01'
+modified: '2026-03-03'
 specificationVersion: '0.18'
 tags:
 - UI Framework
@@ -11,6 +11,8 @@ tags:
 - Salesforce
 - Cloud Platform
 - Enterprise
+- MVC
+- Tag-Based Markup
 apis:
 - name: Visualforce Pages API
   description: API for creating and managing Visualforce pages and components
@@ -34,6 +36,10 @@ apis:
     url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_quick_start.htm
   - type: Authentication
     url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_understanding_authentication.htm
+  - type: DeveloperGuide
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/
+  - type: CreatingPages
+    url: https://trailhead.salesforce.com/content/learn/modules/visualforce_fundamentals/visualforce_creating_pages
 - name: Visualforce Components API
   description: Standard and custom component library for building Visualforce pages
   image: https://developer.salesforce.com/resource/images/salesforce-logo.png
@@ -43,6 +49,8 @@ apis:
   - Components
   - UI Elements
   - Reusable
+  - Standard Components
+  - Custom Components
   properties:
   - type: Documentation
     url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref.htm
@@ -50,6 +58,16 @@ apis:
     url: https://developer.salesforce.com/docs/component-library/overview/components
   - type: Examples
     url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_quick_start_examples.htm
+  - type: CustomComponents
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_comp_cust.htm
+  - type: DynamicComponents
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_dynamic_vf_components_implementation.htm
+  - type: ComponentReference
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_component.htm
+  - type: ComponentAccess
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_access.htm
+  - type: UsingComponentLibrary
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_quick_start_component_library.htm
 - name: Visualforce Apex Controller API
   description: Server-side controllers written in Apex for Visualforce pages
   image: https://developer.salesforce.com/resource/images/salesforce-logo.png
@@ -67,6 +85,8 @@ apis:
     url: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/
   - type: BestPractices
     url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_best_practices.htm
+  - type: ApexDeveloperGuide
+    url: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/
 - name: Visualforce Remoting API
   description: JavaScript remoting for calling Apex methods from Visualforce pages
   image: https://developer.salesforce.com/resource/images/salesforce-logo.png
@@ -84,7 +104,141 @@ apis:
     url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_js_remoting_example.htm
   - type: ErrorHandling
     url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_js_remoting_errors.htm
+- name: Visualforce Static Resources API
+  description: Upload and reference static content such as archives, images, stylesheets, and JavaScript files in Visualforce pages using the $Resource global variable
+  image: https://developer.salesforce.com/resource/images/salesforce-logo.png
+  humanUrl: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_resources.htm
+  baseUrl: https://instance.salesforce.com
+  tags:
+  - Static Resources
+  - JavaScript
+  - CSS
+  - Images
+  - Assets
+  properties:
+  - type: Documentation
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_resources.htm
+  - type: CreatingStaticResources
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_resources_create.htm
+  - type: ReferencingStaticResources
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_resources_reference.htm
+  - type: JavaScriptLibraries
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_javascript_libraries.htm
+  - type: Tutorial
+    url: https://trailhead.salesforce.com/content/learn/modules/visualforce_fundamentals/visualforce_static_resources
+- name: Visualforce Email Templates API
+  description: Create and manage Visualforce email templates for advanced email formatting with merge fields, dynamic content, and custom styling
+  image: https://developer.salesforce.com/resource/images/salesforce-logo.png
+  humanUrl: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_email_templates_intro.htm
+  baseUrl: https://instance.salesforce.com
+  tags:
+  - Email Templates
+  - Messaging
+  - Templates
+  - Notifications
+  properties:
+  - type: Documentation
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_email_templates_intro.htm
+  - type: CreatingTemplates
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_email_templates_creating.htm
+  - type: ComponentReference
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_messaging_emailTemplate.htm
+- name: Visualforce PDF Rendering API
+  description: Generate downloadable and printable PDF files from Visualforce pages using the renderAs attribute or the PageReference.getContentAsPDF() method in Apex
+  image: https://developer.salesforce.com/resource/images/salesforce-logo.png
+  humanUrl: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_output_pdf_renderas.htm
+  baseUrl: https://instance.salesforce.com
+  tags:
+  - PDF
+  - Rendering
+  - Documents
+  - Export
+  properties:
+  - type: Documentation
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_output_pdf_renderas.htm
+  - type: BestPractices
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_additional_render_pdf.htm
+  - type: Considerations
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_output_pdf_considerations.htm
+  - type: RenderingFromApex
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_output_pdf_render_in_apex.htm
+- name: Visualforce Security API
+  description: Built-in security features for Visualforce pages including automatic XSS protection, CSRF token management, and secure coding practices
+  image: https://developer.salesforce.com/resource/images/salesforce-logo.png
+  humanUrl: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_security_tips_xss.htm
+  baseUrl: https://instance.salesforce.com
+  tags:
+  - Security
+  - XSS Protection
+  - CSRF Protection
+  - Secure Coding
+  properties:
+  - type: XSSProtection
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_security_tips_xss.htm
+  - type: CSRFProtection
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_security_tips_csrf.htm
+  - type: SecureCodingGuide
+    url: https://developer.salesforce.com/docs/atlas.en-us.secure_coding_guide.meta/secure_coding_guide/secure_coding_cross_site_scripting.htm
+  - type: Tutorial
+    url: https://trailhead.salesforce.com/content/learn/modules/secure-clientside-development/mitigate-crosssite-scripting
+  - type: SecurityGuidelines
+    url: https://help.salesforce.com/s/articleView?id=sf.review_and_certification.htm&language=en_US&type=5
+- name: Visualforce in Lightning Experience API
+  description: Use Visualforce pages within Lightning Experience including Lightning stylesheets, Lightning Out, and embedding Visualforce in Lightning web components
+  image: https://developer.salesforce.com/resource/images/salesforce-logo.png
+  humanUrl: https://trailhead.salesforce.com/content/learn/modules/lex_dev_visualforce/lex_dev_visualforce_intro
+  baseUrl: https://instance.salesforce.com
+  tags:
+  - Lightning Experience
+  - Lightning Stylesheets
+  - Lightning Out
+  - Migration
+  properties:
+  - type: Documentation
+    url: https://trailhead.salesforce.com/content/learn/modules/lex_dev_visualforce/lex_dev_visualforce_intro
+  - type: LWCIntegration
+    url: https://developer.salesforce.com/docs/platform/lwc/guide/use-visualforce.html
+  - type: MigrationTrail
+    url: https://trailhead.salesforce.com/content/learn/trails/migrate-from-visualforce-to-lightning-web-components
+- name: Visualforce Metadata and Tooling API
+  description: Manage and deploy Visualforce pages and components using the Salesforce Metadata API and Tooling API for source control and CI/CD workflows
+  image: https://developer.salesforce.com/resource/images/salesforce-logo.png
+  humanUrl: https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_intro.htm
+  baseUrl: https://instance.salesforce.com
+  tags:
+  - Metadata API
+  - Tooling API
+  - Deployment
+  - CI/CD
+  - Source Control
+  properties:
+  - type: MetadataAPIDocumentation
+    url: https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_intro.htm
+  - type: SalesforceCLI
+    url: https://developer.salesforce.com/tools/salesforcecli
+  - type: CLIReference
+    url: https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference
+  - type: CLISetup
+    url: https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup
+  - type: GitHubRepository
+    url: https://github.com/forcedotcom/cli
+- name: Visualforce Global Variables API
+  description: Access global variables such as $Api, $Resource, $Component, $CurrentPage, and other platform context variables within Visualforce pages
+  image: https://developer.salesforce.com/resource/images/salesforce-logo.png
+  humanUrl: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_variables_global_api.htm
+  baseUrl: https://instance.salesforce.com
+  tags:
+  - Global Variables
+  - Merge Fields
+  - Expressions
+  - Platform Context
+  properties:
+  - type: Documentation
+    url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_variables_global_api.htm
 maintainers:
+- name: Kin Lane
+  email: kin@apievangelist.com
+  url: https://apievangelist.com
 - name: Salesforce
   email: developer@salesforce.com
   url: https://developer.salesforce.com
@@ -109,3 +263,21 @@ common:
   url: https://www.salesforce.com/company/legal/agreements/
 - type: PrivacyPolicy
   url: https://www.salesforce.com/company/privacy/
+- type: Documentation
+  url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/
+- type: APILibrary
+  url: https://developer.salesforce.com/docs/apis
+- type: IntegrationCenter
+  url: https://developer.salesforce.com/developer-centers/integration-apis
+- type: Trailhead
+  url: https://trailhead.salesforce.com/content/learn/modules/visualforce_fundamentals
+- type: ReleaseNotes
+  url: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_releasenotes.htm
+- type: SalesforceExtensions
+  url: https://github.com/forcedotcom/salesforcedx-vscode/wiki/Release-Notes
+- type: DXSetup
+  url: https://trailhead.salesforce.com/content/learn/modules/sfdx_app_dev/sfdx_app_dev_setup_dx
+- type: PDFDeveloperGuide
+  url: https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/salesforce_pages_developers_guide.pdf
+- type: CertificationPrep
+  url: https://trailhead.salesforce.com/content/learn/modules/platform-developer-i-certification-prep-user-interfaces/pd1-3-ui-visualforce
