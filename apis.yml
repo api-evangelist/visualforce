@@ -9,9 +9,9 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Salesforce
   - UI Framework
   - Web Development
-  - Salesforce
 created: '2024-01-01'
 modified: '2026-03-16'
 url: >-
@@ -27,9 +27,9 @@ apis:
       within the Salesforce platform.
     humanURL: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/
     tags:
-      - UI Framework
-      - Salesforce
       - MVC
+      - Salesforce
+      - UI Framework
     properties:
       - type: Documentation
         url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/
