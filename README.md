@@ -1,101 +1,58 @@
-# Visualforce API (visualforce)
+# Visualforce (visualforce)
 Visualforce is a framework that enables developers to build sophisticated, custom user interfaces that can be hosted natively on the Salesforce platform. It uses a tag-based markup language similar to HTML and provides a component-based development model.
 
-**URL:** [Visit APIs.json URL](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/)
+**URL:** [https://raw.githubusercontent.com/api-evangelist/visualforce/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/visualforce/refs/heads/main/apis.yml)
+
+**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
 
 ## Tags:
 
- - UI Framework, Web Development, Salesforce, Cloud Platform, Enterprise
+ - Salesforce, UI Framework, Web Development
 
 ## Timestamps
 
-- **Created:** 2024-01-01 
-- **Modified:** 2024-01-01 
+- **Created:** 2024-01-01
+- **Modified:** 2026-04-18
 
 ## APIs
 
-### Visualforce Pages API
-API for creating and managing Visualforce pages and components
+### Visualforce
+Salesforce framework for building custom user interfaces using tag-based markup and Apex server-side controllers.
 
 **Human URL:** [https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/)
 
+## Features
 
-#### Tags:
+| Name | Description |
+|------|-------------|
+| Tag-Based Markup Language | HTML-like markup for building custom Salesforce pages. |
+| Component-Based Architecture | Reusable components for consistent UI patterns. |
+| Apex Controller Integration | Server-side controllers for business logic. |
+| Standard Controllers | Built-in controllers for CRUD operations. |
+| PDF Generation | Render pages as PDF documents. |
+| Email Templates | Dynamic HTML email templates. |
 
- - Pages, Components, MVC
+## Use Cases
 
-#### Properties
+| Name | Description |
+|------|-------------|
+| Custom Salesforce Pages | Build custom UI pages extending Salesforce functionality. |
+| PDF Document Generation | Generate branded PDFs for invoices and reports. |
+| Custom Email Templates | Rich HTML email templates with dynamic content. |
+| Embedded Dashboards | Custom analytics dashboards within Salesforce. |
+| Wizard-Style Forms | Multi-step form workflows for complex data entry. |
 
-- [Documentation](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_intro.htm)
-- [OpenAPI](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/)
-- [Swagger](https://api.example.com/visualforce/swagger.json)
-- [Tutorial](https://trailhead.salesforce.com/content/learn/modules/visualforce_fundamentals)
-- [GettingStarted](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_quick_start.htm)
-- [Authentication](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_understanding_authentication.htm)
+## Integrations
 
-### Visualforce Components API
-Standard and custom component library for building Visualforce pages
-
-**Human URL:** [https://developer.salesforce.com/docs/component-library/overview/components](https://developer.salesforce.com/docs/component-library/overview/components)
-
-
-#### Tags:
-
- - Components, UI Elements, Reusable
-
-#### Properties
-
-- [Documentation](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref.htm)
-- [ComponentLibrary](https://developer.salesforce.com/docs/component-library/overview/components)
-- [Examples](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_quick_start_examples.htm)
-
-### Visualforce Apex Controller API
-Server-side controllers written in Apex for Visualforce pages
-
-**Human URL:** [https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller_def.htm](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller_def.htm)
-
-
-#### Tags:
-
- - Apex, Controllers, Server-Side, MVC
-
-#### Properties
-
-- [Documentation](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller_def.htm)
-- [Reference](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/)
-- [BestPractices](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_best_practices.htm)
-
-### Visualforce Remoting API
-JavaScript remoting for calling Apex methods from Visualforce pages
-
-**Human URL:** [https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_js_remoting.htm](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_js_remoting.htm)
-
-
-#### Tags:
-
- - JavaScript, AJAX, Remote Actions, Asynchronous
-
-#### Properties
-
-- [Documentation](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_js_remoting.htm)
-- [Examples](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_js_remoting_example.htm)
-- [ErrorHandling](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_js_remoting_errors.htm)
-
-## Common Properties
-
-- [Portal](https://developer.salesforce.com)
-- [Signup](https://developer.salesforce.com/signup)
-- [Login](https://login.salesforce.com)
-- [Support](https://help.salesforce.com)
-- [Community](https://trailblazer.salesforce.com/ideaSearch)
-- [Blog](https://developer.salesforce.com/blogs)
-- [Status](https://status.salesforce.com)
-- [RateLimits](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/)
-- [TermsOfService](https://www.salesforce.com/company/legal/agreements/)
-- [PrivacyPolicy](https://www.salesforce.com/company/privacy/)
+| Name | Description |
+|------|-------------|
+| Salesforce Lightning | Embed Visualforce pages in Lightning Experience. |
+| Apex | Server-side controller integration for database access. |
+| JavaScript Remoting | Asynchronous JavaScript calls to Apex methods. |
+| Salesforce REST API | Client-side integration with Salesforce REST APIs. |
+| Force.com Canvas | Embed external applications within Visualforce pages. |
 
 ## Maintainers
 
-**FN:** Salesforce
-
-**Email:** developer@salesforce.com
+**FN:** Kin Lane
+**Email:** kin@apievangelist.com
