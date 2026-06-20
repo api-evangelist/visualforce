@@ -7,7 +7,7 @@ description: >-
   component-based development model for building pages, email templates, and
   PDF documents within Salesforce.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: >-
   https://raw.githubusercontent.com/api-evangelist/visualforce/refs/heads/main/apis.yml
 created: '2024-01-01'
