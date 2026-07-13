@@ -2,14 +2,14 @@
   "repo": "visualforce",
   "feeds": [
     {
-      "source": "https://developer.salesforce.com/blogs",
-      "feed_url": "",
+      "source": "https://trailhead.salesforce.com/en/content/learn/modules/visualforce_fundamentals",
+      "feed_url": "https://trailhead.salesforce.com/en/content/learn/modules/visualforce_fundamentals",
+      "title": "",
       "saved": 0,
-      "error": "listing JS-rendered, no posts extractable",
-      "method": "agent-scrape"
+      "method": "none"
     }
   ],
-  "fetched": "2026-06-27T13:19:52Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 4,
   "agent_pulled": "2026-06-27"
 }
