@@ -61,6 +61,8 @@ apis:
       - type: GettingStarted
         url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_quick_start.htm
 common:
+  - type: Website
+    url: https://www.salesforce.com/
   - type: DomainSecurity
     url: security/visualforce-domain-security.yml
   - type: Portal
